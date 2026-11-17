@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><style data-metaai-safe-area>:root { scroll-padding-top: var(--safe-area-scroll-padding-top, 0px); }
+<head><script data-goatcounter="https://vdtest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><style data-metaai-safe-area>:root { scroll-padding-top: var(--safe-area-scroll-padding-top, 0px); }
 [data-safe-area-inset-root]::before {
   background: inherit;
   content: "";
@@ -1516,5 +1516,19 @@ Error generating stack: `+u.message+`
 </script>
   <script>(function(){function m(a){var h=a.getAttribute("href");if(!h)return;try{var u=new URL(h,document.baseURI);if(((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host)||u.protocol==="mailto:"||u.protocol==="tel:"||u.protocol==="sms:"){a.target="_blank";a.rel="noopener noreferrer";}}catch(e){}}function s(){document.querySelectorAll("a[href]").forEach(m);}if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);})();</script>
   <script type="application/json" data-clippy-inline-media-manifest="1">{"version":1,"slots":[]}</script>
+
+<script>
+document.addEventListener('click', function(e){
+  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if(!a) return;
+  if(!window.goatcounter) return;
+  var href = a.getAttribute('href') || '';
+  if(href.indexOf('rustore.ru') !== -1){
+    goatcounter.count({path:'click-rustore', title:'RuStore click', event:true});
+  } else if(href.indexOf('play.google.com') !== -1){
+    goatcounter.count({path:'click-googleplay', title:'Google Play click', event:true});
+  }
+}, true);
+</script>
 </body>
 </html>
